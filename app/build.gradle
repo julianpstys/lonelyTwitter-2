@@ -12,6 +12,9 @@ android {
             targetCompatibility JavaVersion.VERSION_1_5
         }
     }
+    dependencies {
+        compile 'com.google.code.gson:gson:2.2.3'
+    }
 
     buildTypes {
         release {
